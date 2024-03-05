@@ -8,4 +8,4 @@ class Asignatura:
         if self._salon=="remoto":
             return self._nombre + " " + self._salon
         else:
-            return self._nombre + " salón: " + self._salon
+            return self._nombre + " salón " + self._salon
