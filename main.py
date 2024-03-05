@@ -11,22 +11,47 @@ if __name__ == "__main__":
     print(grupo1.grado)
 
     grupo2 = Grupo("Grupo 5", [], ["Alejandro", "Carlos"])
-
+    #Grupo 5, Asignaturas=[], listadoAlumnos=[Alejandro, Carlos], grado 12
     grupo3 = Grupo()
+    #Grupo determinado, Asig=[], listadoAlumnos=[], grado 12
     grupo4 = Grupo()
+    #Grupo determinado, Asignaturas=[], listadoAlumnos=[], grado 12
     grupo5 = Grupo()
+    #Grupo determinado, Asignaturas=[], listadoAlumnos=[], grado 12
+
     grupo3.agregarAlumno("Kelly")
+    #Grupo determinado, Asignaturas=[], listadoAlumnos=["Kelly"], grado 12
+
     grupo4.agregarAlumno("Santiago", ["Jaime", "Pedro"])
+    #Grupo determinado, Asignaturas=[], listadoAlumnos=["Jaime", "Pedro", "Santiago"], grado 12
+
     grupo5.agregarAlumno("Javier")
+    #Grupo determinado, Asignaturas=[], listadoAlumnos=["Javier"], grado 12
 
     print(grupo3.listadoAlumnos)
     print(grupo4.listadoAlumnos)
     print(grupo5.listadoAlumnos)
 
     grupo3.listadoAsignaturas(as1="Ciencias", as2="Quimica", as3="Ingles")
+    #Grupo determinado, Asignaturas=["Ciencias", "Quimica", "Ingles"], listadoAlumnos=["Kelly"], grado 12
+
     print(len(grupo3._asignaturas))
 
     Grupo.asignarNombre("Grado 1")
     print(Grupo.grado)
     Grupo.asignarNombre()
     print(Grupo.grado)
+
+
+
+# Matematicas remoto
+# Grupo de estudiantes: grupo predeterminado
+# Grado 12
+    
+
+# ['Kelly']
+# ['Jaime', 'Pedro', 'Santiago']
+# ['Javier']
+# 3
+# Grado 1
+# Grado 6
