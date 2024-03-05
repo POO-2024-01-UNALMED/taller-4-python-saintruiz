@@ -44,14 +44,3 @@ if __name__ == "__main__":
 
 
 
-# Matematicas remoto
-# Grupo de estudiantes: grupo predeterminado
-# Grado 12
-    
-
-# ['Kelly']
-# ['Jaime', 'Pedro', 'Santiago']
-# ['Javier']
-# 3
-# Grado 1
-# Grado 6
