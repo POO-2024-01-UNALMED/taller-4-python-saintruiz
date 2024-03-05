@@ -6,6 +6,6 @@ class Asignatura:
 
     def __str__(self):
         if self._salon=="remoto":
-            return self._nombre + "" + self._salon
+            return self._nombre + " " + self._salon
         else:
             return self._nombre + " salón: " + self._salon
