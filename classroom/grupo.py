@@ -9,7 +9,8 @@ class Grupo:
 
     def listadoAsignaturas(self, **args):
         for x in args.values():
-            self._asignaturas.append(x)
+            asign=Asignatura(x)
+            self._asignaturas.append(asign)
 
     def agregarAlumno(self, alumno, lista=None):
         if type(lista) !=list:
